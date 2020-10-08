@@ -1,0 +1,20 @@
+{
+    "name": "dcolsay/cockpit",
+    "description": "Component for laravel app",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boris DEHOUMON",
+            "email": "borisdehoumon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "illuminate/filesystem": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/view": "^7.0|^8.0"
+    }
+}

@@ -2,7 +2,7 @@
 
 namespace Dcolsay\Cockpit;
 
-use Dcolsay\Cockpit\Components\SideBar;
+use Dcolsay\Cockpit\Components\Header;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
@@ -37,6 +37,6 @@ class CockpitServiceProvider extends ServiceProvider
 
     private function bootBladeComponents(): void
     {
-        Blade::component('side-bar', SideBar::class);
+        Blade::component('header', Header::class, 'pit');
     }
 }
